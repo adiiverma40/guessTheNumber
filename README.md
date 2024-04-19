@@ -27,9 +27,6 @@ This is a simple yet fun Rock, Paper, Scissors game built using HTML, CSS, and J
 - CSS
 - JavaScript
 
-## Screenshots
-
-Screenshots have been removed.
 
 ## Contributing
 
