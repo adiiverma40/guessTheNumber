@@ -16,21 +16,21 @@
     <main>
         <div class="gameScreen">
            <div class="game">
-             <p style="border-bottom: 1px solid black;" class="text">
+             <p style="border-bottom: 1px solid black;" class="text" id="opponent">
                 Hi! I am your Opponent in this game. I will Choose A number from 1 to 100. <br> You have to guess the
                 Number.
             </p>
             
-            <p class="text">
-                you are close enough to the number.
-            </p>
+            <h3 id="myText">
+
+            </h3>
             <div class="previous">
-                <p>previous Guessed no.</p><p id="previousNumber">0</p>
+                <p>previous Guessed no.</p><p id="previousNumber"></p>
             </div>
-            <form action="">
+            <form action="" id="myForm">
                 <input type="number" name="guessNumber" id="inputNumber">
-                <input  class="button-74" type="submit" value="submit">
-                <button class="button-74"  type="button">Restart</button>
+                <input  id="submit" class="button-74" type="submit" value="submit">
+                <button id="restart" class="button-74"  type="button">Restart</button>
             </form>
             <div class="reset">
              
