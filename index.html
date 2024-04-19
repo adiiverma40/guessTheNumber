@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
@@ -7,13 +8,40 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/game.png" type="image/x-icon">
 </head>
+
 <body>
-        <header>
-            <p>Guess The Number</p>
-        </header>
+    <header>
+        <p>Guess The Number</p>
+    </header>
+    <main>
+        <div class="gameScreen">
+           <div class="game">
+             <p style="border-bottom: 1px solid black;" class="text">
+                Hi! I am your Opponent in this game. I will Choose A number from 1 to 100. <br> You have to guess the
+                Number.
+            </p>
+            
+            <p class="text">
+                you are close enough to the number.
+            </p>
+            <div class="previous">
+                <p>previous Guessed no.</p><p id="previousNumber">0</p>
+            </div>
+            <form action="">
+                <input type="number" name="guessNumber" id="inputNumber">
+                <input  class="button-74" type="submit" value="submit">
+                <button class="button-74"  type="button">Restart</button>
+            </form>
+            <div class="reset">
+             
+            </div>
+
+        </div></div>
+    </main>
 
 
 
     <script src="script.js"></script>
 </body>
+
 </html>
